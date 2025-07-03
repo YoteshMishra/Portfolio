@@ -1,6 +1,21 @@
 # Yotesh Kumar Mishra - Portfolio Website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://app.netlify.com/sites/ephemeral-lily-ade68d/deploys)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-brightgreen)](https://ephemeral-lily-ade68d.netlify.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/YoteshMishra/Portfolio)
+
 A modern, responsive portfolio website built with React.js and Tailwind CSS, showcasing my skills as a Frontend Developer and JavaScript Enthusiast.
+
+## 🌐 Live Demo
+**[View Live Portfolio →](https://ephemeral-lily-ade68d.netlify.app/)**
+
+## 📸 Screenshots
+
+### Desktop View
+![Portfolio Desktop](https://via.placeholder.com/800x400/3B82F6/FFFFFF?text=Portfolio+Desktop+View)
+
+### Mobile View
+![Portfolio Mobile](https://via.placeholder.com/400x600/0EA5E9/FFFFFF?text=Portfolio+Mobile+View)
 
 ## 🌟 Features
 
@@ -54,8 +69,8 @@ A modern, responsive portfolio website built with React.js and Tailwind CSS, sho
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd portfolio
+   git clone https://github.com/YoteshMishra/Portfolio.git
+   cd Portfolio
    ```
 
 2. **Install dependencies**
@@ -84,16 +99,19 @@ A modern, responsive portfolio website built with React.js and Tailwind CSS, sho
 src/
 ├── components/
 │   ├── Header.jsx          # Navigation header
-│   ├── Hero.jsx           # Landing section
+│   ├── Hero.jsx           # Landing section with profile
 │   ├── About.jsx          # About section
 │   ├── Projects.jsx       # Projects showcase
 │   ├── Contact.jsx        # Contact form
 │   └── Footer.jsx         # Footer section
-├── assets/
-│   └── profile.svg        # Profile image
 ├── App.jsx                # Main app component
 ├── main.jsx              # App entry point
 └── style.css             # Global styles & Tailwind
+
+public/
+├── Pic.jfif              # Profile picture
+├── YOTESH KUMAR MISHRA CV.pdf  # Resume file
+└── vite.svg              # Vite logo
 ```
 
 ## 🎨 Design Features
