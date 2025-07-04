@@ -7,10 +7,10 @@ const Projects = () => {
       id: 1,
       title: 'E-Commerce Web Application',
       description: 'A comprehensive e-commerce web application built with TypeScript and Angular, featuring product catalog, shopping cart, and user authentication.',
-      image: '/api/placeholder/400/250',
+      image: '\e-com.PNG',
       technologies: ['TypeScript', 'Angular', 'Bootstrap', 'REST API'],
       liveUrl: 'https://github.com/YoteshMishra/Ecommerce-web',
-      githubUrl: 'https://github.com/YoteshMishra/Ecommerce-web',
+      githubUrl: 'https://github.com/YoteshMishra/Ecommerce-web/tree/master/ecommerceapp',
       featured: true
     },
     {
