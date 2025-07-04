@@ -9,8 +9,8 @@ const Projects = () => {
       description: 'A modern, responsive dashboard for managing e-commerce operations with real-time analytics, inventory management, and order tracking.',
       image: '/e-com.PNG',
       technologies: ['TypeScript', 'Angular', 'Bootstrap', 'REST API'],
-      liveUrl: '#',
-      githubUrl: '#',
+      liveUrl: 'https://github.com/YoteshMishra/ecommerce-dashboard',
+      githubUrl: 'https://github.com/YoteshMishra/ecommerce-dashboard',
       featured: true
     },
     {
@@ -19,8 +19,8 @@ const Projects = () => {
       description: 'A collaborative task management application with drag-and-drop functionality, team collaboration features, and progress tracking.',
       image: '/api/placeholder/400/250',
       technologies: ['React.js', 'Bootstrap', 'Node.js', 'MongoDB'],
-      liveUrl: '#',
-      githubUrl: '#',
+      liveUrl: 'https://github.com/YoteshMishra/task-management-app',
+      githubUrl: 'https://github.com/YoteshMishra/task-management-app',
       featured: true
     },
     {
@@ -29,8 +29,8 @@ const Projects = () => {
       description: 'A beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics.',
       image: '/api/placeholder/400/250',
       technologies: ['JavaScript', 'CSS3', 'Weather API', 'Geolocation'],
-      liveUrl: '#',
-      githubUrl: '#',
+      liveUrl: 'https://github.com/YoteshMishra/weather-app',
+      githubUrl: 'https://github.com/YoteshMishra/weather-app',
       featured: false
     },
     {
@@ -39,8 +39,8 @@ const Projects = () => {
       description: 'A responsive portfolio website showcasing modern design principles with smooth animations and optimal performance.',
       image: '/api/placeholder/400/250',
       technologies: ['React.js', 'Tailwind CSS', 'Vite', 'Responsive Design'],
-      liveUrl: '#',
-      githubUrl: '#',
+      liveUrl: 'https://ephemeral-lily-ade68d.netlify.app/',
+      githubUrl: 'https://github.com/YoteshMishra/Portfolio',
       featured: false
     },
     {
@@ -49,8 +49,8 @@ const Projects = () => {
       description: 'An elegant restaurant website with online reservation system, menu showcase, and customer review integration.',
       image: '/api/placeholder/400/250',
       technologies: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap'],
-      liveUrl: '#',
-      githubUrl: '#',
+      liveUrl: 'https://github.com/YoteshMishra/restaurant-website',
+      githubUrl: 'https://github.com/YoteshMishra/restaurant-website',
       featured: false
     },
     {
@@ -59,8 +59,8 @@ const Projects = () => {
       description: 'A full-featured blogging platform with content management, user authentication, and social sharing capabilities.',
       image: '/api/placeholder/400/250',
       technologies: ['React.js', 'Node.js', 'Express', 'MongoDB'],
-      liveUrl: '#',
-      githubUrl: '#',
+      liveUrl: 'https://github.com/YoteshMishra/blog-platform',
+      githubUrl: 'https://github.com/YoteshMishra/blog-platform',
       featured: false
     }
   ]
@@ -90,12 +90,20 @@ const Projects = () => {
             >
               {/* Project Image */}
               <div className="relative h-48 lg:h-56 bg-gradient-to-br from-primary-100 to-secondary-100 overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center">
-                    <FiCode className="w-16 h-16 text-primary-500 mx-auto mb-2" />
-                    <p className="text-primary-600 font-medium">Project Screenshot</p>
+                {project.image.startsWith('/api/placeholder') ? (
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="text-center">
+                      <FiCode className="w-16 h-16 text-primary-500 mx-auto mb-2" />
+                      <p className="text-primary-600 font-medium">Project Screenshot</p>
+                    </div>
                   </div>
-                </div>
+                ) : (
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                )}
                 {project.featured && (
                   <div className="absolute top-4 left-4">
                     <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-gradient-to-r from-accent-500 to-primary-500 text-white shadow-lg">
@@ -164,8 +172,16 @@ const Projects = () => {
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 {/* Project Image */}
-                <div className="h-32 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
-                  <FiCode className="w-8 h-8 text-gray-500" />
+                <div className="h-32 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center overflow-hidden">
+                  {project.image.startsWith('/api/placeholder') ? (
+                    <FiCode className="w-8 h-8 text-gray-500" />
+                  ) : (
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+                    />
+                  )}
                 </div>
 
                 {/* Project Content */}
