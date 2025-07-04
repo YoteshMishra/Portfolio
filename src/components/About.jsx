@@ -5,7 +5,7 @@ const About = () => {
   const stats = [
     {
       icon: FiCode,
-      number: '50+',
+      number: '10+',
       label: 'Projects Completed',
       color: 'from-blue-500 to-cyan-500'
     },

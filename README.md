@@ -11,11 +11,11 @@ A modern, responsive portfolio website built with React.js and Tailwind CSS, sho
 
 ## 📸 Screenshots
 
-### Desktop View
-![Portfolio Desktop](https://via.placeholder.com/800x400/3B82F6/FFFFFF?text=Portfolio+Desktop+View)
+### Portfolio Website
+![Portfolio Desktop](https://ephemeral-lily-ade68d.netlify.app/screenshot-desktop.png)
 
-### Mobile View
-![Portfolio Mobile](https://via.placeholder.com/400x600/0EA5E9/FFFFFF?text=Portfolio+Mobile+View)
+### Featured Project - E-Commerce Dashboard
+![E-Commerce Dashboard](./public/e-com.PNG)
 
 ## 🌟 Features
 

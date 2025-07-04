@@ -7,8 +7,8 @@ const Projects = () => {
       id: 1,
       title: 'E-Commerce Dashboard',
       description: 'A modern, responsive dashboard for managing e-commerce operations with real-time analytics, inventory management, and order tracking.',
-      image: '/api/placeholder/400/250',
-      technologies: ['React.js', 'Tailwind CSS', 'Chart.js', 'REST API'],
+      image: '/e-com.PNG',
+      technologies: ['TypeScript', 'Angular', 'Bootstrap', 'REST API'],
       liveUrl: '#',
       githubUrl: '#',
       featured: true
