@@ -7,12 +7,12 @@
 A modern, responsive portfolio website built with React.js and Tailwind CSS, showcasing my skills as a Frontend Developer and JavaScript Enthusiast.
 
 ## 🌐 Live Demo
-**[View Live Portfolio →](https://ephemeral-lily-ade68d.netlify.app/)**
+**[View Live Portfolio →](https://portfolio-yotesh.netlify.app/)**
 
 ## 📸 Screenshots
 
 ### Portfolio Website
-![Portfolio Desktop](https://ephemeral-lily-ade68d.netlify.app/screenshot-desktop.png)
+![Portfolio Desktop](https://portfolio-yotesh.netlify.app/screenshot-desktop.png)
 
 ### Featured Project - E-Commerce Dashboard
 ![E-Commerce Dashboard](./public/e-com.PNG)
