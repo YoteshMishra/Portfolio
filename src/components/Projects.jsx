@@ -5,82 +5,82 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Web Application',
-      description: 'A comprehensive e-commerce web application built with TypeScript and Angular, featuring product catalog, shopping cart, and user authentication.',
-      image: '/e-com.PNG',
-      technologies: ['TypeScript', 'Angular', 'Bootstrap', 'REST API'],
-      liveUrl: 'https://github.com/YoteshMishra/Ecommerce-web',
-      githubUrl: 'https://github.com/YoteshMishra/Ecommerce-web/tree/master/ecommerceapp',
+      title: 'MarketNest - Modern E-commerce Platform',
+      description: 'A fully-featured, responsive e-commerce platform built with modern React ecosystem. Features smart product search, intelligent shopping cart, secure checkout, order tracking, and comprehensive admin panel with analytics dashboard.',
+      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop&crop=center',
+      technologies: ['React.js', 'Redux Toolkit', 'Tailwind CSS', 'Vite', 'Firebase'],
+      liveUrl: 'https://marketnest-onlineshop.netlify.app/',
+      githubUrl: 'https://github.com/YoteshMishra/MarketNest',
       featured: true
     },
     {
       id: 2,
-      title: 'Task Management System',
-      description: 'A comprehensive task management application with drag-and-drop functionality, real-time updates, and team collaboration features.',
-      image: '/api/placeholder/400/250',
-      technologies: ['JavaScript', 'React', 'Node.js', 'MongoDB'],
-      liveUrl: 'https://github.com/YoteshMishra/Task-Management',
-      githubUrl: 'https://github.com/YoteshMishra/Task-Management',
+      title: 'Legal Case Tracker Pro',
+      description: 'A comprehensive legal case management system with Google Calendar integration, deadline management, court location mapping, and vibrant modern UI. Perfect for lawyers and legal professionals.',
+      image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&h=250&fit=crop&crop=center',
+      technologies: ['React.js', 'Redux Toolkit', 'Tailwind CSS', 'Firebase', 'Google Maps API'],
+      liveUrl: 'https://case-tracker-pro.netlify.app/',
+      githubUrl: 'https://github.com/YoteshMishra/Case-Tracker-App',
       featured: true
     },
     {
       id: 3,
-      title: 'Code Playground',
-      description: 'An interactive code playground for testing and running JavaScript code with real-time output and syntax highlighting.',
-      image: '/api/placeholder/400/250',
-      technologies: ['JavaScript', 'HTML5', 'CSS3', 'CodeMirror'],
-      liveUrl: 'https://github.com/YoteshMishra/CodePlayground2',
-      githubUrl: 'https://github.com/YoteshMishra/CodePlayground2',
+      title: 'Task Management System',
+      description: 'A comprehensive task management application with drag-and-drop functionality, real-time updates, and team collaboration features.',
+      image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=250&fit=crop&crop=center',
+      technologies: ['JavaScript', 'React', 'Node.js', 'MongoDB'],
+      liveUrl: null,
+      githubUrl: 'https://github.com/YoteshMishra/Task-Management',
       featured: false
     },
     {
       id: 4,
-      title: 'Chatbot Application',
-      description: 'An intelligent chatbot application with natural language processing and real-time conversation capabilities.',
-      image: '/api/placeholder/400/250',
-      technologies: ['JavaScript', 'Node.js', 'NLP', 'Socket.io'],
-      liveUrl: 'https://github.com/YoteshMishra/chatbot-app',
-      githubUrl: 'https://github.com/YoteshMishra/chatbot-app',
+      title: 'E-Commerce Web Application (Angular)',
+      description: 'A comprehensive e-commerce web application built with TypeScript and Angular, featuring product catalog, shopping cart, and user authentication.',
+      image: '/e-com.PNG',
+      technologies: ['TypeScript', 'Angular', 'Bootstrap', 'REST API'],
+      liveUrl: null,
+      githubUrl: 'https://github.com/YoteshMishra/Ecommerce-web',
       featured: false
     },
     {
       id: 5,
-      title: 'Dashboard Application',
-      description: 'A responsive dashboard application with data visualization, charts, and real-time analytics for business insights.',
-      image: '/api/placeholder/400/250',
-      technologies: ['JavaScript', 'React', 'Chart.js', 'CSS3'],
-      liveUrl: 'https://github.com/YoteshMishra/Dashboard',
-      githubUrl: 'https://github.com/YoteshMishra/Dashboard',
+      title: 'Code Playground',
+      description: 'An interactive code playground for testing and running JavaScript code with real-time output and syntax highlighting.',
+      image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=250&fit=crop&crop=center',
+      technologies: ['JavaScript', 'HTML5', 'CSS3', 'CodeMirror'],
+      liveUrl: 'https://code-playground2.vercel.app/',
+      githubUrl: 'https://github.com/YoteshMishra/CodePlayground2',
       featured: false
     },
     {
       id: 6,
-      title: 'Calculator Application',
-      description: 'A basic calculator application with standard mathematical operations and a clean, user-friendly interface.',
-      image: '/api/placeholder/400/250',
-      technologies: ['JavaScript', 'HTML5', 'CSS3', 'DOM'],
-      liveUrl: 'https://github.com/YoteshMishra/Calculator',
-      githubUrl: 'https://github.com/YoteshMishra/Calculator',
+      title: 'Chatbot Application',
+      description: 'An intelligent chatbot application with natural language processing and real-time conversation capabilities.',
+      image: 'https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=400&h=250&fit=crop&crop=center',
+      technologies: ['JavaScript', 'Node.js', 'NLP', 'Socket.io'],
+      liveUrl: null,
+      githubUrl: 'https://github.com/YoteshMishra/chatbot-app',
       featured: false
     },
     {
       id: 7,
-      title: 'Interactive Popup Components',
-      description: 'A collection of interactive popup components and modals built with HTML, CSS, and JavaScript for modern web applications.',
-      image: '/api/placeholder/400/250',
-      technologies: ['HTML5', 'CSS3', 'JavaScript', 'Animations'],
-      liveUrl: 'https://github.com/YoteshMishra/Popup',
-      githubUrl: 'https://github.com/YoteshMishra/Popup',
+      title: 'Dashboard Application',
+      description: 'A responsive dashboard application with data visualization, charts, and real-time analytics for business insights.',
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop&crop=center',
+      technologies: ['JavaScript', 'React', 'Chart.js', 'CSS3'],
+      liveUrl: null,
+      githubUrl: 'https://github.com/YoteshMishra/Dashboard',
       featured: false
     },
     {
       id: 8,
-      title: 'My Projects Collection',
-      description: 'A comprehensive collection of various web development projects showcasing different technologies and implementations.',
-      image: '/api/placeholder/400/250',
-      technologies: ['JavaScript', 'HTML5', 'CSS3', 'Multiple Frameworks'],
-      liveUrl: 'https://github.com/YoteshMishra/myProjects',
-      githubUrl: 'https://github.com/YoteshMishra/myProjects',
+      title: 'Calculator Application',
+      description: 'A basic calculator application with standard mathematical operations and a clean, user-friendly interface.',
+      image: 'https://images.unsplash.com/photo-1587145820266-a5951ee6f620?w=400&h=250&fit=crop&crop=center',
+      technologies: ['JavaScript', 'HTML5', 'CSS3', 'DOM'],
+      liveUrl: null,
+      githubUrl: 'https://github.com/YoteshMishra/Calculator',
       featured: false
     }
   ]
@@ -158,19 +158,21 @@ const Projects = () => {
 
                 {/* Project Links */}
                 <div className="flex gap-4">
-                  <a
-                    href={project.liveUrl}
-                    className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-primary-500 to-secondary-500 text-white rounded-lg hover:from-primary-600 hover:to-secondary-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
-                  >
-                    <FiExternalLink className="w-4 h-4 mr-2" />
-                    Live Demo
-                  </a>
+                  {project.liveUrl && (
+                    <a
+                      href={project.liveUrl}
+                      className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-primary-500 to-secondary-500 text-white rounded-lg hover:from-primary-600 hover:to-secondary-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+                    >
+                      <FiExternalLink className="w-4 h-4 mr-2" />
+                      Live Demo
+                    </a>
+                  )}
                   <a
                     href={project.githubUrl}
                     className="inline-flex items-center px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-all duration-300 transform hover:scale-105"
                   >
                     <FiGithub className="w-4 h-4 mr-2" />
-                    Code
+                    View Code
                   </a>
                 </div>
               </div>
@@ -233,19 +235,21 @@ const Projects = () => {
 
                   {/* Project Links */}
                   <div className="flex gap-2">
-                    <a
-                      href={project.liveUrl}
-                      className="flex-1 inline-flex items-center justify-center px-3 py-2 bg-primary-500 text-white rounded text-sm hover:bg-primary-600 transition-colors duration-300"
-                    >
-                      <FiExternalLink className="w-3 h-3 mr-1" />
-                      Demo
-                    </a>
+                    {project.liveUrl && (
+                      <a
+                        href={project.liveUrl}
+                        className="flex-1 inline-flex items-center justify-center px-3 py-2 bg-primary-500 text-white rounded text-sm hover:bg-primary-600 transition-colors duration-300"
+                      >
+                        <FiExternalLink className="w-3 h-3 mr-1" />
+                        Demo
+                      </a>
+                    )}
                     <a
                       href={project.githubUrl}
-                      className="flex-1 inline-flex items-center justify-center px-3 py-2 bg-gray-100 text-gray-700 rounded text-sm hover:bg-gray-200 transition-colors duration-300"
+                      className={`${project.liveUrl ? 'flex-1' : 'w-full'} inline-flex items-center justify-center px-3 py-2 bg-gray-100 text-gray-700 rounded text-sm hover:bg-gray-200 transition-colors duration-300`}
                     >
                       <FiGithub className="w-3 h-3 mr-1" />
-                      Code
+                      View Code
                     </a>
                   </div>
                 </div>
