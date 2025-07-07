@@ -4,6 +4,7 @@ import { FiDownload, FiGithub, FiLinkedin, FiMail } from 'react-icons/fi'
 const Hero = () => {
   const techSkills = [
     'React.js',
+    'Redux Toolkit',
     'JavaScript',
     'Bootstrap',
     'REST API',

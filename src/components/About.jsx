@@ -117,7 +117,7 @@ const About = () => {
             <div className="text-center">
               <h4 className="text-lg font-semibold text-gray-800 mb-4">Frontend</h4>
               <div className="space-y-2">
-                {['React.js', 'JavaScript (ES6+)', 'HTML5 & CSS3', 'Tailwind CSS', 'Bootstrap'].map((skill) => (
+                {['React.js', 'Redux Toolkit', 'JavaScript (ES6+)', 'HTML5 & CSS3', 'Tailwind CSS', 'Bootstrap'].map((skill) => (
                   <div key={skill} className="text-gray-600">{skill}</div>
                 ))}
               </div>
