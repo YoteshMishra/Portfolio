@@ -10,6 +10,7 @@ const Skills = () => {
       color: 'from-blue-500 to-cyan-500',
       skills: [
         { name: 'React.js', level: 90, description: 'Advanced component architecture and hooks' },
+        { name: 'Redux Toolkit', level: 85, description: 'State management and efficient Redux patterns' },
         { name: 'JavaScript (ES6+)', level: 95, description: 'Modern JavaScript features and best practices' },
         { name: 'TypeScript', level: 60, description: 'Basic understanding of type-safe development' },
         { name: 'HTML5 & CSS3', level: 95, description: 'Semantic markup and modern CSS features' },
